@@ -1,0 +1,79 @@
+.footer {
+  display: grid;
+  background-color: #0C0C0C;
+  padding: 60px calc((100vw - 1401px) / 2);
+  gap: 0 109px;
+  grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      grid-template-areas:
+        "item-1 item-3 item-5 item-6"
+        "item-2 item-4 item-5 item-7";
+  
+    &__item-1 { grid-area: item-1; }
+    &__item-2 { grid-area: item-2; }
+    &__item-3 { grid-area: item-3; }
+    &__item-4 { grid-area: item-4; }
+    &__item-5 { grid-area: item-5; }
+    &__item-6 { grid-area: item-6; }
+    &__item-7 { grid-area: item-7; }
+
+  @media screen and (max-width: 1600px) {
+    padding-left: calc((100vw - 1240px) / 2);
+    padding-right: calc((100vw - 1240px) / 2);
+    gap: 0 70px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    padding-left: calc((100vw - 921px) / 2);
+    padding-right: calc((100vw - 921px) / 2);
+    gap: 0 9px
+  }
+  
+  @media screen and (max-width: 1290px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "item-1 item-1 item-1"
+      "item-3 item-4 item-5"
+      "item-6 item-4 item-5"
+      "item-7 item-2 item-2";
+  
+    &__item-1 { grid-area: item-1; }
+    &__item-2 { grid-area: item-2; }
+    &__item-3 { grid-area: item-3; }
+    &__item-4 { grid-area: item-4; }
+    &__item-5 { grid-area: item-5; }
+    &__item-6 { grid-area: item-6; }
+    &__item-7 { grid-area: item-7; }
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  @media screen and (max-width: 850px) {
+    grid-template-columns: 242px 246px 1fr;
+    padding: 50px 45px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 40px 34px 35px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "item-1"
+    "item-3"
+    "item-4"
+    "item-5"
+    "item-6"
+    "item-7"
+    "item-2";
+
+    &__item-1 { grid-area: item-1; }
+    &__item-2 { grid-area: item-2; }
+    &__item-3 { grid-area: item-3; }
+    &__item-4 { grid-area: item-4; }
+    &__item-5 { grid-area: item-5; }
+    &__item-6 { grid-area: item-6; }
+    &__item-7 { grid-area: item-7; }
+  }
+}

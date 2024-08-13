@@ -1,0 +1,73 @@
+.add {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+
+  &__offers {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: end;
+
+    @media screen and (max-width: 1290px) {
+      align-items: start;
+    }
+
+    @media screen and (max-width: 850px) {
+      margin-top: 37px;
+    }
+
+    @media screen and (max-width:700px) {
+      margin: 0 0 42px;
+    }
+  }
+
+  &__offer {
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: end;
+
+    @media screen and (max-width: 1290px) {
+      text-align: start;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__banks {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    align-items: center;
+    justify-content: end;
+
+    @media screen and (max-width: 1290px) {
+      justify-content: start;
+    }
+
+    & #mir {
+      max-width: 46px;
+      height: 13px;
+    }
+
+    & #visa {
+      max-width: 45px;
+      height: 14px;
+    }
+
+    & #master {
+      max-width: 48.33px;
+      height: 29px;
+    }
+  }
+}

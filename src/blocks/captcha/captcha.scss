@@ -1,0 +1,45 @@
+.captcha {
+  display: flex;
+  flex-direction: column;
+  gap: 52.9px;
+
+  &__logo {
+    max-width: 239px;
+    height: 62.1px;
+
+    @media screen and (max-width: 1290px) {
+      margin-bottom: 33.23px;
+    }
+
+    @media screen and (max-width: 700px) {
+      margin-bottom: 4.23px;
+    }
+  }
+
+  &__text {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-family: Roboto;
+    text-align: left;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+    max-width: 320px;
+
+    @media screen and (max-width: 1290px) {
+      max-width: 382px;
+      text-align: left;
+      justify-self: end;
+    }
+
+    @media screen and (max-width: 700px) {
+      max-width: 610px;
+    }
+
+    & a {
+      color: #808080;
+    }
+  }
+}

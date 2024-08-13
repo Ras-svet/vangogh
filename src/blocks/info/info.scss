@@ -1,0 +1,38 @@
+.info {
+  font-family: 'Lato', arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+
+    &-large {
+      line-height: 24px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Lato";
+  src: url(./Lato-Bold.woff) format("woff"), url(./Lato-Bold.woff2) format("woff2");
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./Lato-Semibold.woff) format("woff"), url(./Lato-Semibold.woff2) format("woff2");
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./Lato-Regular.woff) format("woff"), url(./Lato-Regular.woff2) format("woff2");
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Korataki";
+  src: url(./KoratakiRg-Regular.woff) format("woff"), url(./KoratakiRg-Regular.woff2) format("woff2");
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto-Regular.woff) format("woff"), url(./Roboto-Regular.woff2) format("woff2");
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
